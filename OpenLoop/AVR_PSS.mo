@@ -293,6 +293,8 @@ model AVR_PSS
     annotation (Placement(transformation(extent={{-96,30},{-76,50}})));
   Modelica.Blocks.Sources.Constant P(k=100)
     annotation (Placement(transformation(extent={{-96,-4},{-76,16}})));
+  Modelica.Blocks.Noise.NormalNoise normalNoise
+    annotation (Placement(transformation(extent={{-106,-44},{-86,-24}})));
 equation
   connect(sT5B.EFD0, Efd0.y) annotation (Line(points={{9.8,-8.8},{-12.1,-8.8},{
           -12.1,-30},{-35,-30}}, color={0,0,127}));

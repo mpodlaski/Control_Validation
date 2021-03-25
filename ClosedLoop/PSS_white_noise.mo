@@ -3951,7 +3951,7 @@ model PSS_white_noise "Only added white noise"
         1.0232705; 9.952913,1.0232705; 9.96,1.0232705; 9.96,1.0032935; 9.97,
         1.0032935; 9.97,1.0032935; 9.98,1.0032935; 9.98,0.89067775; 9.99,
         0.89067775; 9.99,0.89067775; 10,0.89067775; 10,0.98863506])
-    annotation (Placement(transformation(extent={{-10,40},{10,60}})));
+    annotation (Placement(transformation(extent={{178,68},{198,88}})));
   OpenIPSL.Electrical.Controls.PSSE.PSS.PSS2A pSS2A(
     T_w2=5,
     T_6=0,

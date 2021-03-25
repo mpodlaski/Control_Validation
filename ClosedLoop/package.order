@@ -9,3 +9,5 @@ AVR_white_noise_fmincon_Bode
 WhiteNoise_System_FMU
 gen_white_noise_PSO_results
 PSS_white_noise
+WhiteNoise_System_PSS_FMU
+PSS_white_noise_results
